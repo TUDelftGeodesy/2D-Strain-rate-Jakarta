@@ -4,8 +4,8 @@ A Python implementation to estimate horizontal strain-rate tensors and derived s
 
 This repository provides the implementation of the horizontal strain-rate inversion method introduced in the accompanying manuscript. It also enables the reconstruction of the Jakarta strain-rate results and figures supporting the manuscript.
 
-	Lapadat and Hanssen, *Horizontal Strain Rate Estimation from InSAR Observations and the Strapdown Method*,  
-manuscript submitted to *Journal of Geophysical Research: Solid Earth*.
+> Lapadat and Hanssen, *Horizontal Strain Rate Estimation from InSAR Observations and the Strapdown Method*,  
+> manuscript submitted to *Journal of Geophysical Research: Solid Earth*.
 
 ## Repository contents
 
@@ -17,9 +17,7 @@ derives the strain-rate quantities and their within-element covariance blocks,
 and exports the numerical results;
 * `02_jakarta_strain_figures.ipynb` loads the exported results of the first notebook and reconstructs the strain-rate, uncertainty, and velocity-residual figures from the Results section of the manuscript.
 
-Note: running the complete strain-rate inversion in `01_jakarta_strain_inversion.ipynb` is computationally expensive. 
-The cell containing the inversion method is therefore commented out by default, and `results/jakarta_strain_inversion_archive.pkl` provides the precomputed Jakarta strain-rate inversion results. 
-This allows users to inspect the method, derive the strain-rate quantities, and reproduce the manuscript figures without repeating the expensive inversion.
+**Note:** Running the complete strain-rate inversion in `01_jakarta_strain_inversion.ipynb` is computationally expensive. The notebook therefore provides the option to load the precomputed inversion results from `results/jakarta_strain_inversion_archive.pkl`. This allows users to bypass the inversion and proceed directly with deriving the strain-rate quantities, exporting the result tables, and reproducing the manuscript figures.
 
 ## Requirements
 
