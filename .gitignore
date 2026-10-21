@@ -1,0 +1,24 @@
+# Downloaded data and inversion results
+data/*
+!data/.gitkeep
+
+results/*
+!results/.gitkeep
+
+# Local environments and package artefacts
+.venv/
+jakarta-strain/
+*.egg-info/
+build/
+dist/
+
+# Jupyter and Python artefacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local backup notebooks
+*_backup.ipynb
+
+# Operating-system files
+.DS_Store
