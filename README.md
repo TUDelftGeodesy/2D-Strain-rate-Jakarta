@@ -65,8 +65,8 @@ The GitHub repository contains the notebooks and code, but not the data or preco
 
 The files come from two 4TU.ResearchData datasets:
 
-* **RUM velocity observations:** the separately published Jakarta RUM velocity dataset [![DOI](https://data.4tu.nl/v3/datasets/39e7a39c-d305-425f-b238-1f3a4271dda9/doi-badge.svg)](https://doi.org/10.4121/39e7a39c-d305-425f-b238-1f3a4271dda9.v3). Its file `jakarta_enu_estimates.csv` contains RUM East and North velocity estimates, with one 2 × 2 East–North variance-covariance block per RUM;
-* **Jakarta strain-rate dataset:** the accompanying dataset [![DOI](https://data.4tu.nl/v3/datasets/cff30595-1d98-4e9d-8eb7-0a3000a434fe/doi-badge.svg)](https://doi.org/10.4121/cff30595-1d98-4e9d-8eb7-0a3000a434fe) contains the transversal horizontal-velocity contours, precomputed inversion results, strain-rate result tables, and metadata.
+* **RUM velocity observations:** the separately published Jakarta RUM velocity dataset [![DOI](https://img.shields.io/badge/DOI-10.4121%2F39e7a39c--d305--425f--b238--1f3a4271dda9.v3-F29100.svg)](https://doi.org/10.4121/39e7a39c-d305-425f-b238-1f3a4271dda9.v3). Its file `jakarta_enu_estimates.csv` contains RUM East and North velocity estimates, with one 2 × 2 East–North variance-covariance block per RUM;
+* **Jakarta strain-rate dataset:** the accompanying dataset [![DOI](https://img.shields.io/badge/DOI-10.4121%2Fcff30595--1d98--4e9d--8eb7--0a3000a434fe-F29100.svg)](https://doi.org/10.4121/cff30595-1d98-4e9d-8eb7-0a3000a434fe) contains the transversal horizontal-velocity contours, precomputed inversion results, strain-rate result tables, and metadata.
 
 ### File roles
 
