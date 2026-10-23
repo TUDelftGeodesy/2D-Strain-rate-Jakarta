@@ -4,7 +4,8 @@ A Python implementation to estimate horizontal strain-rate tensors and derived s
 
 This repository provides the implementation of the horizontal strain-rate inversion method introduced in the accompanying manuscript. It also enables the reconstruction of the Jakarta strain-rate results and figures supporting the manuscript.
 
-**Associated manuscript:** Lapadat and Hanssen, *Horizontal Strain Rate Estimation from InSAR Observations and the Strapdown Method*. Manuscript submitted to *Journal of Geophysical Research: Solid Earth*.
+**Associated manuscript:** Lapadat and Hanssen, *Horizontal Strain Rate Estimation from InSAR Observations and the Strapdown Method*. EarthArXiv preprint, manuscript submitted to *Journal of Geophysical Research: Solid Earth*.
+[![DOI](https://img.shields.io/badge/DOI-10.31223%2FX59Z30-F29100.svg)](https://doi.org/10.31223/X59Z30)
 
 ## Repository contents
 
